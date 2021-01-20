@@ -1,0 +1,10 @@
+# Output directories
+/_done
+/_test
+
+# Misc
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
