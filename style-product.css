@@ -17,15 +17,6 @@ body {
   padding: var(--gap);
 }
 
-@media (min-width: 640px) {
-  .grid {
-    display: grid;
-    gap: var(--gap);
-    grid-template-columns: repeat(auto-fit, minmax(var(--min-w), max-content));
-    grid-auto-rows: 1fr;
-  }
-}
-
 .product {
   border: 1px solid var(--primary-border);
   background-color: var(--primary-bg);
