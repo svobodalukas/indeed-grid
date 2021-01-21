@@ -42,3 +42,11 @@ body {
   border-color: var(--primary);
   border-radius: 0.25rem; 
 }
+
+/* Here starts grid */
+.grid {
+  margin-bottom: 2rem;
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
